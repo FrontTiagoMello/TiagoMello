@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+ul{
+    list-style: none;
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+body{
+    height: 100hv;
+    background-image: url(.//pexels-photo-998641.jpeg);
+    background: linear-gradient(90deg,#00b09b, #96c93d)
+      
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+   /* border: 5px solid black;*/
+  /* box-shadow: 1px 1px 10px 1px black;*/
+  border-bottom: 15px ridge black;
+}
+
+header ul{
+    display: flex;
+}
+
+header ul li {
+    padding: 15px;
+border-right: 2px dashed black;
+}
+
+header ul li a {
+    transition: 300ms;
+    }
+
+header ul li a:hover {
+color: yellow;
+text-decoration: underline;
+}
+.container{
+    text-align: center;
+}
+
+.container .name h1{
+    font-size: 30px;
+}
+
+.container .name h5{
+    font: size 500px;
+}
+
+#arrow{
+    font-size: 30 px;
+
+}
+
+.flex{
+    display: flex;
+}
+
+.flex div{
+    border: 5px solid black;
+    margin: 15px;
+    flex-basis: 100%;
+}
+
+.flex img{
+    max-width: 350px;
+}
+
+.about p{
+    max-width: 600px;
+    margin: 0 auto;
+
+}
+
+.form{
+    width: 40%;
+    margin: 0 auto;
+    border: thick double black;
+    padding: 25px;
+}
+
+.form input{
+    width: 50%;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.form button{
+    width: 15%;
+    padding: 5px 10px;
+    background:linear-gradient(to right, #095 50%, #c09717);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    color: white;
+    font-weight: 600;
+    border:none;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.form button:hover{
+    background-position:left bottom;
+    color: red;
+}
